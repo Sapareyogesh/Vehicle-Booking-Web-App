@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Frontend Bootcamp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#learn">What You'll Learn</a>
+              <a class="nav-link" href="#questions">Questions</a>
+              <a class="nav-link" href="#instructor">Instructor</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--banner-->
+      <section class="bg-dark text-light p-5 pt-lg-5 p-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Globe Explorer</span></h1>
+                    <p class="lead my-4">Travel opens your heart, broadens your mind,and fills your life with stories to tell Collect Moments,Not Things.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Start The Tour</button>    
+                </div>
+                        <img class="img-fluid w-50 d-none d-sm-block" src="https://img.freepik.com/free-vector/travel-concept-with-landmarks_1057-4873.jpg?size=338&ext=jpg" alt="image">
+            </div>
+        </div>
+      </section>
+      <!--form modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Enrollment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Fill Out The Form We Will Get Back You</p>
+          <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">First Name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput2">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput3" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput3">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput4" class="form-label">Phone:</label>
+                <input type="tel" class="form-contro2" id="exampleFormControlInput4">
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--newsletter-->
+  <section class="bg-primary text-light p-5"> 
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 md-mb-0">Sign up For Your Tour</h3>
+        <div class="input-group input-group-lg mb-3 news-input">
+          <input type="text" class="form-control" placeholder="Enter Email">
+          <span class="input-group-text text-light text-light bg-dark" id="basic-addon2">Submit</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--features-->
+      <section class="p-5">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Rpt8dd1XO9CZWaVpcpqxlqN7PbEI0vK7sLnrHCiHVGmZg4yr6gGhCSID1sAPcDaQTsg&usqp=CAU" class="card-img-top" alt="image">
+                <div class="card-body">
+                  <h5 class="card-title">Cab</h5>
+                  <p class="card-text">Tourism cabs one of the best travel agencies known for its credibility, quality and exceptional hospitality..</p>
+                  <a href="https://www.olacabs.com/" class="btn btn-primary">Go Via Cab</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img  src="https://img.freepik.com/premium-vector/bus-cartoon-clipart-colored-illustration_576561-1248.jpg?w=2000" class="card-img-top" alt="image">
+                <div class="card-body">
+                  <h5 class="card-title">Bus</h5>
+                  <p class="card-text">service that takes visitors sightseeing, with routes around tourist attractions..</p>
+                  <a href="https://www.redbus.in/" class="btn btn-primary">Go Via Bus</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Qr-MvDBPUF9BArtPt6L8SBJsvOkERjSj0g&usqp=CAU" class="card-img-top" alt="image">
+                <div class="card-body">
+                  <h5 class="card-title">Trains</h5>
+                  <p class="card-text">Trains are typically pulled or pushed by locomotives though some are self-propelled,multiple units..</p>
+                  <a href="https://www.makemytrip.com/railways/" class="btn btn-primary">Go On Rails</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAABblBMVEX49vT///8AAAAAotGMjIz//v/39fP7+fceLnz///3+/Pr8/Pz9//8NoNGPj4/6+fbc2tuUlJTu7u61tbX8//ulpaXU09Genp7o6OjZ19jw8PB3d3fKysrCwsIAa6lwcHATEBGEgoM9OzxMTEwAAAliYWFWVFW4trdFRUUwLi+Afn41NTWsrKwAAB8AABMAACwAACYcGhslJSUAaq8AADZdW1wgLngeLYBnZ2UWFhqgmZPs/P/K6/Ov3e5ze3+i0d0+o8UKl8Quh6klT2U2osoTBQ4ApMgyfKVcrcwpQlHP7PN2uNI/cIooNUWOxdYfExETJzUkndYzXnVJn8ZFdZAococ9lbYaHRYYITUhZINORD8VHUcAGzMmRnAyZpoOQVkTNVQZYo0oMm8fIVgeWoU7VF1jUVMACEQfBAAQTG0PRFwojbUZLEUhI2YAMUYsL2MdbqAAHD0AOUUpKC86e5IADiEXEgAuV5IcJVATGEvfUAqRAAATEklEQVR4nO1diXvTVrb3PdESyZtko8WyFHmJvMiCYCdegHYKNJ2ZztYCXR4FOozDe319rxR4bWeG//6dc2WbEDshJLbT5tMPvnzE6/3p7OeeK1KpBAkSJEiQIEGCBAkSJEiQIEGCBAkSJEiQIEGCBAkSJEiQIEGCBAkSJEiQIEGCBJcUknzRK1ghZITKlEtKMc3ElGR6RjUI7PxFL2YVKOSC1g2YwLyEUmQNYtauhzebWgh99aLXs3SoHnRNW2Isc+uDD38H1uVjKFXAQ3of3b5z5052G+zLpqWSUoWAZTK3bm9kN7J3oaVc9IqWDVkDcJjCPtzIZjc2Pobo0vlSpQUWy6i3bhPB/U+gcNkYqhF0lCsZ5YM72ezvs3/4JFCli17SkuFgAGQZJfNHlGB241NoXjY/o5TBZ+mM8qc7yPDePkDqkjGUTXIzaSXzZ/Qz2exfoCxe9JKWDLUDEWNMuXUHdTS7/1fwLpmfUSxosQxS/BtZYfYr+OyS5TNpG0BjGZHd+j2GiuzGX6B6yRiKAVTRj4rsozvEcP9zrCsuUayQUrIHlZSoXBEz+/eysZKyS0QQoXahycQrSuaDO/fIDO+DfrmUVNGhzphI0X6DHM3+DdAuVTCU0c3Y6EZF9icMFYi7ULtUZYWEhb1OoVDN/DlLBPc/BuMyiVBSm1BhaaI4EeGDa7DWJtTqfVoXC3tkmMlQtEdDvAuNS+VJeWFPuIIJGw/3H0NxXZ5UllWVKfZKL2geC/tCmlP8iPPLPtgGZ4VfeOirFcf2jLAOICzniubl/AL/odSxsOe49SDLtfQLGK3Fk6pufdqYrS1FiKpm2pJCOHzB1CL0OD9R+ZCLcCOLZcU6PCl1haBetjytgAyX4G/kYny5Kp26PhORlJIAXCKYUTMPuASztwHWEiqUAHKxdaQBo9X5hagK0K11Y5YjdcqBVWHEv0VRPohDRfZLCNeipAyATYDS1M9fb08Sl7RjmxVoyDFF0pQCjxQq+yOP9htY+7prKStYBb96AhOwtDn3J2KNW+eBnRV60ClwiuLUzWSm0X7jK/h6PaFCrYIxZchKAOH5Kao3MLKLyIbJLejaKs9m2vQIPRYnbBsbDyGnriHL4I2hFmYZmZmijtLn/UgVi8A0fSaW8gFAibGpm2FMvXXnXpyT/ge4a8rY5B6azZQhQyOa2s7ZwaiQ55GBoYeBRgegH+stU/6GoWJ//+7DHwHaa8q6FYFa7FOGzOlCTcqfUXvklJxXFJbSqBmDn2V7kcUjB17ENKd466u79z8F+KbalOrrqn5RTTtsRhCX1YGe/b5fTWkfRnip5BlC0KnQ5mdAEaPmC5GrpYpd/smujkr7TVjUyKmSRayE0DxYl1/wN8AcR0ufTopSSk6nRZayzUj3Z7kRdPplq2ja6dlHBrUcPtsSinb8+8RGi2vRU1nVMdKLhymOAMx3UaQpCoVJthsJo/aUWbdV1puHmc0Q5Tz76GMe9NdT4culqSufIQRoLvxyoo0Kidxss6iPalNq7aAaebYzz2yCzKIHMYlaU3Uo1o6oKWPoH4x5irzISk0KkQm1PhraTDqZhUz4E5kFzzXAXE/ASFsgHLm6DNNn4Q1FiZQSQ4lrlVuVCbdGiNSk+PXijMYJDOcfFSBaT8DI21CZ+3bM4AJKUqW8jK6kUIqqU7l1Ar1YSh1D5dQQRREZWmvad1JqYB5ZQJppmDdLaHESCq4zcSSB3tRSs1ecFw5auyMqqnruFONdkFRrkoO8hUIbOtGUXL0alY53JGdAk/KAWNsN15aZImOltTLHIy9SU8YDI66jITRtcdHT54Bd75oOBpp+b9pewBrcTinqqqSp1KeZ8QyOV+1Aq1qci2LnBqp3btqywaRca+qjiaJAyy+uaGpBjaB8eBFmrgetnHt+U1sIjPRzCq95ll+rrG6ITy4AzOh4I6gIq2KH5t2Y05cpaPt0VQNgSkBzZshKC6FmFI5ZwRKAsVc/5ikMH9XV9RflIvj4JV4Lcss3vMMot2aXTzzivkTmrk6EKRmr8FQEneJK6SFG3vHPYTkVrapizCtFtPJ6iS0jkJ8Ive95ruuWShrCJmhaqYSPNI3qUvpgCyEpJhYJwdHseyVw/KBRb8BiCCsiKMsCRqLSnF2sBFxFmtDtN+r1eotQbzT6o3I1pxc1cTWxMG9jvI1WTAxLiyvKlKNJk3vK21Dj7HQVFBUPDXCF4WGG9FRFMOG21rV7j2WfEpF9r9q/sLznQ5PzZKwF/hrHE4igsSJ+zpvUzIGrj8CLGfpQW990gqRiKV+cdDKXCylq8A0aNDFGkW48uBb7amuFUX0eNOoZrUCCil2Hx0++/XvARAXzwCorweaYb0hh1r3OAzKUb+urkKBSf/rt1u7uP4Axtw7bI+Zubw74rNAq05YFwKowWDo7jt6z3d2t3X8hw9bO+FXIvKvjA3A4wVVF9YUELajkV2GDmH0+2drd2trCiqx9MNzTmQHQiTjB8vokKOVtOLZQOy9uPkWCuy9RbDAe7hmsGFCnCwn6bG1GKKWUPtb1K0rUbj7d4gzTDAaDaxG7Qg9ibVRe52FKGb8wfVwD9xxIzxhuoafJw6vtlk1NfTsHa5pMmEKtbYNzbI/67AQdolh+QgyffYahvoz6qTC76APk1kow78Hn/xnG+wlxVMaf01/eX3czGVG8kmGOFXe00Jciw+993u8XWaFoBQs3QlYISenAF7fBFgkoSfqB6T8Bf1PfnyFa2hVWhZ3rtANiw7cYLLau8kyUFZq6gfWnt95ZWRThjf3sl//F5veLREdT3pshY2bVYb2D4XfUZzIeYzjcesbbd8RP70JFW/M8d6YBX2xkb/8SeiY1EzTT9CJDF8pBq/3fUHt/64xQSAWxOx7s0OhK8P3Wt9//gBkv6acVlQEazppngfMa3ODHHe7/+PgaAFz75fGP//Pxw4cPf777vw8+Nd5J6ChsOBiDlILB8Cr1soIff4BvjAL6F90yrNa6fQxB/R08jAcEJ9iPR80It6GwQEvJA70tWpFxn6SUBImVtoeDruLA4DmfFdI6FiahNsrPMKoVqJjrH1eXAB68oTcDZ/hzY9Ge9OJNXNEOgYokd3t80EFJbvdu8lI+ZUYmyg8J1jGPuYDbQqgRfLpxDMP9H4uLGHKxvp3DSpaLxdB4jLmZtzM4qDO7T1mg6Ao9aJWhZxhGWFm7D42BRcXdeX4xwweQP8oQf9WisNV+K4s1RwAWi3aGQ0ix4s6L6yPKzQpRHzp6iS5FWCcLHDnnHiI7A2QNPnlwb58IzTN8OJqLH3Yf4PH3z77n3p+UsIBW1tl7cdVj1s5w3BOxcK+ENrOtNgTN6R6xS5vG3hprpUNQdYD72RiH+dGf/cdzbXcNnv7j5UtMpLepQFALaFuYrLSfb15zmbA3RAMUbZfZeg/KKOXZYAbGiGr+gg41qT0w4fa9txhO/pX9Co4SZNq1lxTAd7de8V2N3vWDHYGlvx4MQGPVV69p9lfDaxaaPL1uQy0iWZcANHEt05XzkE2osdz/7b8tw8m/7wtzfRsbkCFmYbtP+b7YT88pccHY9wIk5kNZs4UKVGnLo9mCqsaY1we/pHUhurDTIioNIyqf3Z8JbirD7Fc/35+bHWJMxiyThLj1hHLO9Ne8ppVg/AhEZrtGN6anhVBvTlJ2x6LdXKwqLkhJxS41hewefP7xl1/eJfzh4cP7n36+TUMJi6r+Cs+jt3afhLR6GGxeb9Icat8roGsJiZ4ctY9sPJo+DUwZBVGW1i5JuYRKyrXPM6qjoN9o9ANfsN4MOM2h8wzpIcknVBkV4MVrOr5UtJsN7lrQufjIdu5dTkTzB767fkGmDRAcculzScpxCXfj2Ran+LTK4iFizMy80YRVwYKudcykTakcC1JZ4aTMAojV+CiER3NXSlwRTnAMw+DZ1i5nSCMiUhUDXxU6EY97bgD+0XGqyeXin+cYNJnpr9cixQbNlttYlEZMmeTYxFVRjisLv3n2khzN1lUX/azCvA4I3OYKOqZmx3Yjp5esxC0yktbXZWM1iH1CqdM53a4aUAOb2p8pZOhCLbY5DArl020bSwZNPpVLq5t4mmM4NRtrQWyYh0YMkeOTFn8Ldy6OjmIh8Z2ioUwv4a61Fklr6SbOZEhygFPMluSeck+6+0tEZwvo6pinFt8bOFyQoaasfBAxJfZno5Y0KPsuIYjsn//i7d1n/xSZ0E2hnvbASL3npip/sTui0bWivGpBigIcmprxy8ctasKPNa9TSrP7LQZBg1sinH3oxrHoiIKgiSstqeQmH3+aQDpZT9G/9jAavnz2d9CZSedC0PGcazMHHRRG1Ka4Sq/j8DvgTL8xd6IQFSV944en1+EztDuRnEwar4lMz5ydZkGnrFW32cryADGE8nSBacxRTlyrgpHT8GzaWjEa8Ttq4HvnECO+VfRoZijwVhQ+pFQB6PYb00VS/D8WYtygYRlMYmt8QxyTg0LUgCCy4+fPMGdE77AFGj+27NV4HZpPKM3UzH/3tJDtWbpltKYv1Kz4to58CPXMk1TpYouSR3clglRyhzZHc8JJ62BSqWlZ1Bc0QtTStBb5ZEXdsMontBtW6YwM6QJrIc/MV5EHMAFmg6xWePwqUDf1mJ4V9nvQjg8wt3RTVVRmN+Jp+7qlnTK7WfANtB2AtbK67Mxcop31Whz49cUydDQvitlFVjWYjppX+rpXYGo+n1JL8WN9zw0r0DfONNnIE7oyT+hkZckHhBQNL16DVPWoHdIhbC+yJqqplxtccN0RuhaZRuxijVJdensqXYioE+VQ2tm3eJ80/d7DD2leYoUaO+WRwFMir0b4sT2/2SvyaVatZLquV4wMayI5I1fuT86m+YaWR2qHzpbTmINxBW2xZrByN0UdU8FHz1HXzzYCj3UmvrmZFpdqkarKjQDqflUncU1gWXrVD1qTewbwExeTYzsS/8PBOmDZsPf8+cHVSkrvYAAot/ScLvj1CtQE7wyzjoU4oVty+FBVTZ+Iqdtrd2q1TrvXnU3s1qvFUkqhWmBOeVQPale2/z0YDofjR5CuW0yUoCogcnqu3ECfFJ7hKArPA/qeqi7PIqWUrLKCa/n1N7zQfTd8PTJxgWpMboFxsAa4wt54MBgMNwePGhJm5KzcyAkxclZ8qDQwTK6yGb6N/k6CInWU0Tt3dT7xt0RZ0iFlVZZsrVTS7AIdfqWB3RPf4kCXwXhzsEkYQykwUAJdfcJQQMWohjHLWrXJVVY8ZWaQbtJhq1qtXm4uN4DwI5SE6a8nQnbBN68NhjHDzddlt0WN1BlDlIStKLZHcSAYQSWIvewpYVcnc+0XeCc3OQLL2NucyHA4/ilPux2V6pRgAIEoob/tQSBpxs2oiLlLJ2ye2jLTmq31oXOBNzqTLTCsPbTCzYma5qm50QljQ8zl4qPgSh3KYgP29q61NROKBhaGge4e13Y+TJDRAVpwL/BGZ1yGO8PxkBMcDKDQxZSmVo4Z6m0ssVOSWEQp9PA6bA7+DZ5LUhYqmD5UfMPkrbBjTTMtinRe/iJvNyh7UPWubg5ihpvI8Cdk2A6nbqZNLxJrUAp3xqjFw8ELsH0BUxbAYBIGGKDaYXRCyu7U1j9/c4ShDR0JUIQTIXItTQMqKP7txIPcsga1FL2GrHXwqCVRpR2McqjEmBnwdKkVRtoRpeUZXxOdaeGC78WXbkOh8WgYC3Fw0CNPUyJfqpcr0Lbz6IzTBljR9eEg9rgD0BpFxqLWLGbmJtG351vuW9seJoaL8MJvLazmQDBhjDkNKuFgr+ph6SjUczkBVxfEwyViCG759TB+zebmdzcjH9PPiv7G3/p2UehPShZ+uN9xbJdUoOexC9o8PoQCgFO+jjEf8QKcWpGlUElpvRGLcy4WgFY/mHqjzYN+qUZbczOGAJqKyQVGTd1vwyHUojU1/0+CJCk61Fj96hgt8QAicpRhm7LKcmEaxFifM5ymBQc1G6h3OWGot7Doiu+yQTQLWlH3W91uC6uYpRfDZ4TSgoZiwbXr2+DZoDk6Xf6y/cZ+xDKYo9czhs/bziGGegMqb91QkPNkb8rPXwOkHvxkql7TFCPo8+rOssVDFWRax6xgZ3PCcPicy9COGSLBRedKpIu3vsOQpYDCmuDH1oMV+ttFD+aufRsw3HNbHbzidthsUzwRahccz08LpRnXlvWR7soLtAudUesVhnsU4nDzukEdLz/AYIgBpXux8fzUkJntFTGYLTYesYqCxZA/oLwAU9eeS/5Wr+JlGf12/hOrvHzsbiBvrWsGvECGgzHo5G+rrbDGw91vhuDJoFaXE8F3BwevIVTBZSZQK8FK/TY09DRQsCwsOWGt45t2T+BdGOqLXvSylgkFi/zALThmGHfHdY3ftPVXFRPOCdactbh6Ze9d3Z/fIqR0qlmudUZRyZaX2+z9FYF2AhRZvmT/D8nbWP9wYoIECRIkSJAgQYIECRIkSJAgQYIECRIkSJAgQYIECRIkSJAgQYIECRIkSJAgQYIj+H9fj+20m0qCKgAAAABJRU5ErkJggg==" class="card-img-top bg-white" alt="image">
+                <div class="card-body">
+                  <h5 class="card-title">Planes</h5>
+                  <p class="card-text">Airplanes come in a variety of sizes, shapes, and wing configurations,An airplane is a fixed-wing aircraft..</p>
+                  <a href="https://www.makemytrip.com/flights/?gclid=EAIaIQobChMIy47O7_nx_AIVGB4rCh1wqgKLEAAYAyAAEgIcz_D_BwE&cmp=SEM|D|DF|G|Generic|DF_Generic_Exact|Flight_Exact|ETA|Regular|529647807040&s_kwcid=AL!1631!3!529647807040!e!!g!!ticket%20flight%20booking&ef_id=EAIaIQobChMIy47O7_nx_AIVGB4rCh1wqgKLEAAYAyAAEgIcz_D_BwE:G:s" class="btn btn-primary">Go In Air</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+ 
